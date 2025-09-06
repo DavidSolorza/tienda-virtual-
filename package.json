@@ -1,5 +1,5 @@
 {
-  "name": "prueba-tienda-virtual",
+  "name": "mi-proyecto-3d",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,17 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/drei": "^10.7.4",
-    "@react-three/fiber": "^9.3.0",
-    "@react-three/postprocessing": "^3.0.4",
-    "@tailwindcss/typography": "^0.5.16",
-    "@types/three": "^0.180.0",
-    "autoprefixer": "^10.4.21",
-    "lucide-react": "^0.542.0",
-    "postcss": "^8.5.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "tailwindcss": "^4.1.13",
     "three": "^0.180.0"
   },
   "devDependencies": {
@@ -34,6 +25,6 @@
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
-    "vite": "^5.4.2"
+    "vite": "^7.1.2"
   }
 }
