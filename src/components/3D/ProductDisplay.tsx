@@ -16,7 +16,7 @@ export function ProductDisplay({ product, position, isSelected, onSelect }: Prod
   const [hovered, setHovered] = useState(false);
   
   // Cargar modelo GLB con manejo de errores
-  const { scene, error } = useGLTF(product.modelPath, true);
+  const { scene, error } = useGLTF(product.modelPath);
   
   // Animación de rotación suave
   useFrame((state) => {
