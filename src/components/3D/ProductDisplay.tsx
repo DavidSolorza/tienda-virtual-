@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { useGLTF } from '@react-three/drei';
 import { Group, Mesh } from 'three';
-import { Product } from '../../types/Product';
+import type { Product } from '../../types/Product';
 
 interface ProductDisplayProps {
   product: Product;
