@@ -91,4 +91,3 @@ export function ProductDisplay({ product, position, isSelected, onSelect }: Prod
 }
 
 // Precargar modelos para mejor rendimiento
-useGLTF.preload('/src/assets/models/prueba.glb');
